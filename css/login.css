@@ -68,7 +68,7 @@
     padding: 10px;
 }
 
-@media screen and(max-width:1280px){
+@media screen and (max-width:1280px){
     .banner-login {
         width: 50%;
         padding: 0 2%;
@@ -79,7 +79,7 @@
     }
 }
 
-@media screen and(max-width:991px){
+@media screen and (max-width:991px){
     .banner-login {
         display: none;
     }
