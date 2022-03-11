@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
-    <title>Helth Track</title>
+    <title>Health Track</title>
 </head>
+
 <body>
     <div class="login">
         <div class="login-form">
@@ -20,7 +22,8 @@
                 <form>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Digite seu email">
                     </div>
                     <div class="form-group">
                         <label for="senha">Senha</label>
@@ -37,5 +40,12 @@
         </div>
     </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        let button = document.querySelector('form button.btn')
+        button.addEventListener("click", () => {
+            location.href = "views/dashboard.html"
+        })
+    </script>
 </body>
+
 </html>
